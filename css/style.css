@@ -1,0 +1,98 @@
+
+        body{
+            background-color:ghostwhite;
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: skyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+        }
+        nav ul li{
+            margin:0 20px ;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 1000px;
+            font-size: smaller;
+            font-family: "Nimbus Roman";
+        }
+        nav ul li a:hover{
+            background-color: lightgreen;
+            color: red;
+        }
+        /*div{*/
+        /*    background-color: lightsteelblue;*/
+        /*    height: 100px;*/
+        }
+        .one{
+            background-color: lightgreen;
+            height: 500px;
+            color: red;
+        }
+        .two{
+            background-color: salmon;
+            height: 400px;
+            color: blue;
+        }
+        .three{
+            background-color: gray;
+            height: 300px;
+            color: ivory;
+        }
+        #four{
+            background-color: cadetblue;
+            height: 200px;
+            color: darkviolet;
+        }
+        #five{
+            background-color: aquamarine;
+            height: 100px;
+            color: gold;
+        }
+
+
+.background-image{
+          background-image: url("https://cdn.pixabay.com/photo/2016/11/08/05/29/surgery-1807541_960_720.jpg");
+          background-size: cover;
+          background-position: center;
+          height: 500px;
+          border-radius: 20px;
+          margin: 20px;
+        }
+
+.image-one img{
+    height: 50vh;
+    width: 350px;
+    margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
